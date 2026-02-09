@@ -1,0 +1,33 @@
+# OS and editor
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Cursor
+.idea/
+.vscode/
+.cursor/
+
+# Logs and temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Ruby (if you add scripts or a Gemfile later)
+*.gem
+.bundle/
+vendor/bundle/
+.ruby-version
+
+# Env and secrets (do not commit)
+.env
+.env.*
+!.env.example
+
+# Optional: local build or preview output
+_site/
+.out/
