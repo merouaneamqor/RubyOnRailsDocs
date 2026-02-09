@@ -1,493 +1,493 @@
-﻿## List of all questions (generated from files)
+## List of all questions (generated from files)
 
 **Total questions (### headings): 418**
 
 ## 01 Rails Core.md
-- 1. **What is MVC in Rails?**
-- 2. **Explain the Rails request lifecycle.**
-- 3. **What is “Convention over Configuration”?**
-- 4. **What is DRY in Rails?**
-- 5. **What is Rack?**
-- 6. **What is Zeitwerk?**
-- 7. **Purpose of `config/application.rb`?**
-- 8. **What is Puma?**
+- [1. **What is MVC in Rails?**](01%20Rails%20Core.md#1-what-is-mvc-in-rails)
+- [2. **Explain the Rails request lifecycle.**](01%20Rails%20Core.md#2-explain-the-rails-request-lifecycle)
+- [3. **What is “Convention over Configuration”?**](01%20Rails%20Core.md#3-what-is-convention-over-configuration)
+- [4. **What is DRY in Rails?**](01%20Rails%20Core.md#4-what-is-dry-in-rails)
+- [5. **What is Rack?**](01%20Rails%20Core.md#5-what-is-rack)
+- [6. **What is Zeitwerk?**](01%20Rails%20Core.md#6-what-is-zeitwerk)
+- [7. **Purpose of `config/application.rb`?**](01%20Rails%20Core.md#7-purpose-of-configapplicationrb)
+- [8. **What is Puma?**](01%20Rails%20Core.md#8-what-is-puma)
 
 ## 02 Routing.md
-- 1. **What does `resources` generate?**
-- 2. **Difference between `resource` and `resources`?**
-- 3. **What are nested routes?**
-- 4. **What is a `member` route?**
-- 5. **What is a `collection` route?**
-- 6. **What are route concerns?**
-- 7. **How to create a custom route?**
-- 8. **What happens if a route exists but the controller action does not?**
-- 9. **How to list all routes?**
-- 10. **Difference between `scope`, `namespace`, and `controller` routing blocks**
-- 11. **What is `root` and how do you define it?**
-- 12. **What are route constraints?**
-- 13. **What is the difference between `match` and specific HTTP verbs?**
-- 14. **What are shallow nested routes?**
-- 15. **How do you skip or limit RESTful routes?**
-- 16. **What are route helpers and how do you use them?**
-- 17. **Difference between redirects in routes vs controllers**
-- ### 18. **How to handle different formats (HTML, JSON)?**
-- 19. **What is `direct` for custom URL helpers?**
-- 20. **What happens if two routes match the same URL?**
-- 21 How to create routes with params
-- 22. **What are glob routes and when would you use them?**
+- [1. **What does `resources` generate?**](02%20Routing.md#1-what-does-resources-generate)
+- [2. **Difference between `resource` and `resources`?**](02%20Routing.md#2-difference-between-resource-and-resources)
+- [3. **What are nested routes?**](02%20Routing.md#3-what-are-nested-routes)
+- [4. **What is a `member` route?**](02%20Routing.md#4-what-is-a-member-route)
+- [5. **What is a `collection` route?**](02%20Routing.md#5-what-is-a-collection-route)
+- [6. **What are route concerns?**](02%20Routing.md#6-what-are-route-concerns)
+- [7. **How to create a custom route?**](02%20Routing.md#7-how-to-create-a-custom-route)
+- [8. **What happens if a route exists but the controller action does not?**](02%20Routing.md#8-what-happens-if-a-route-exists-but-the-controller-action-does-not)
+- [9. **How to list all routes?**](02%20Routing.md#9-how-to-list-all-routes)
+- [10. **Difference between `scope`, `namespace`, and `controller` routing blocks**](02%20Routing.md#10-difference-between-scope-namespace-and-controller-routing-blocks)
+- [11. **What is `root` and how do you define it?**](02%20Routing.md#11-what-is-root-and-how-do-you-define-it)
+- [12. **What are route constraints?**](02%20Routing.md#12-what-are-route-constraints)
+- [13. **What is the difference between `match` and specific HTTP verbs?**](02%20Routing.md#13-what-is-the-difference-between-match-and-specific-http-verbs)
+- [14. **What are shallow nested routes?**](02%20Routing.md#14-what-are-shallow-nested-routes)
+- [15. **How do you skip or limit RESTful routes?**](02%20Routing.md#15-how-do-you-skip-or-limit-restful-routes)
+- [16. **What are route helpers and how do you use them?**](02%20Routing.md#16-what-are-route-helpers-and-how-do-you-use-them)
+- [17. **Difference between redirects in routes vs controllers**](02%20Routing.md#17-difference-between-redirects-in-routes-vs-controllers)
+- [18. **How to handle different formats (HTML, JSON)?**](02%20Routing.md#18-how-to-handle-different-formats-html-json)
+- [19. **What is `direct` for custom URL helpers?**](02%20Routing.md#19-what-is-direct-for-custom-url-helpers)
+- [20. **What happens if two routes match the same URL?**](02%20Routing.md#20-what-happens-if-two-routes-match-the-same-url)
+- [21 How to create routes with params](02%20Routing.md#21-how-to-create-routes-with-params)
+- [22. **What are glob routes and when would you use them?**](02%20Routing.md#22-what-are-glob-routes-and-when-would-you-use-them)
 
 ## 03 Controllers.md
-- 1. **What is a controller in Rails?**
-- 2. **What is `before_action`?**
-- 3. **What is `skip_before_action`?**
-- 4. **What is `around_action`?**
-- 5. **Difference between `render` and `redirect_to`?**
-- **6. Difference between `params`, `session`, and `cookies`**
-- 7. **What are strong parameters?**
-- 8. **What is CSRF protection?**
-- 9. **How do you handle exceptions globally?**
-- 10. **What is `respond_to` / `format.json`?**
-- 11. **How to send custom headers?**
-- 12. **What is `head :ok` and `render`?**
-- 14. **What is `after_action`?**
-- 15. **What is the difference between `flash` and `flash.now`?**
-- 16. **What is `ApplicationController`?**
-- 17. **What do `only:` and `except:` do in filters?**
-- 18. **What is controller inheritance?**
-- 19. **How do you send HTTP status codes?**
-- 20. **What is `prepend_before_action`?**
-- 21. **What are controller concerns?**
-- 22. **What are the `request` and `response` objects?**
+- [1. **What is a controller in Rails?**](03%20Controllers.md#1-what-is-a-controller-in-rails)
+- [2. **What is `before_action`?**](03%20Controllers.md#2-what-is-beforeaction)
+- [3. **What is `skip_before_action`?**](03%20Controllers.md#3-what-is-skipbeforeaction)
+- [4. **What is `around_action`?**](03%20Controllers.md#4-what-is-aroundaction)
+- [5. **Difference between `render` and `redirect_to`?**](03%20Controllers.md#5-difference-between-render-and-redirectto)
+- [**6. Difference between `params`, `session`, and `cookies`**](03%20Controllers.md#6-difference-between-params-session-and-cookies)
+- [7. **What are strong parameters?**](03%20Controllers.md#7-what-are-strong-parameters)
+- [8. **What is CSRF protection?**](03%20Controllers.md#8-what-is-csrf-protection)
+- [9. **How do you handle exceptions globally?**](03%20Controllers.md#9-how-do-you-handle-exceptions-globally)
+- [10. **What is `respond_to` / `format.json`?**](03%20Controllers.md#10-what-is-respondto-formatjson)
+- [11. **How to send custom headers?**](03%20Controllers.md#11-how-to-send-custom-headers)
+- [12. **What is `head :ok` and `render`?**](03%20Controllers.md#12-what-is-head-ok-and-render)
+- [14. **What is `after_action`?**](03%20Controllers.md#14-what-is-afteraction)
+- [15. **What is the difference between `flash` and `flash.now`?**](03%20Controllers.md#15-what-is-the-difference-between-flash-and-flashnow)
+- [16. **What is `ApplicationController`?**](03%20Controllers.md#16-what-is-applicationcontroller)
+- [17. **What do `only:` and `except:` do in filters?**](03%20Controllers.md#17-what-do-only-and-except-do-in-filters)
+- [18. **What is controller inheritance?**](03%20Controllers.md#18-what-is-controller-inheritance)
+- [19. **How do you send HTTP status codes?**](03%20Controllers.md#19-how-do-you-send-http-status-codes)
+- [20. **What is `prepend_before_action`?**](03%20Controllers.md#20-what-is-prependbeforeaction)
+- [21. **What are controller concerns?**](03%20Controllers.md#21-what-are-controller-concerns)
+- [22. **What are the `request` and `response` objects?**](03%20Controllers.md#22-what-are-the-request-and-response-objects)
 
 ## 04 Models.md
-- 1. What is ActiveRecord?
-- 2. **What is ORM?**
-- 3. **What naming conventions does Rails use for models/tables?**
-- 4. **What is Single Table Inheritance (STI)?**
-- 5. **Difference between `save`, `save!`, `create`, and `create!`?**
-- Common behavior (ActiveRecord ✅ / Mongoid ✅)
-- 6. **What is the difference between `update` and `update!`?**
-- 7. What are callbacks?
-- 8. Why can callbacks be dangerous?
-- 9. **What is a transaction?**
-- 10. **Difference between model validations and DB validations**
-- 11. **How do errors get stored?**
-- 12. **What does `accepts_nested_attributes_for` do?**
-- 13. **What is the `attribute` API?**
-- 14. **What is `enum` in models?**
-- 15. **What is the purpose of validations?**
-- 16. **What is dirty tracking?**
-- 17. **Difference between `update`, `update_attribute`, and `update_column`?**
-- 18. **What are virtual attributes?**
-- 19. **What does `delegate` do?**
-- 20. **What are `serialize` and `store` used for?**
-- 21. **What is callback order (high level)?**
-- 22. **`after_save` vs `after_commit`**
-- 23. **What are readonly records?**
-- **Transactions vs Atomicity (SQL vs MongoDB)**
+- [1. What is ActiveRecord?](04%20Models.md#1-what-is-activerecord)
+- [2. **What is ORM?**](04%20Models.md#2-what-is-orm)
+- [3. **What naming conventions does Rails use for models/tables?**](04%20Models.md#3-what-naming-conventions-does-rails-use-for-modelstables)
+- [4. **What is Single Table Inheritance (STI)?**](04%20Models.md#4-what-is-single-table-inheritance-sti)
+- [5. **Difference between `save`, `save!`, `create`, and `create!`?**](04%20Models.md#5-difference-between-save-save-create-and-create)
+- [Common behavior (ActiveRecord ✅ / Mongoid ✅)](04%20Models.md#common-behavior-activerecord-mongoid)
+- [6. **What is the difference between `update` and `update!`?**](04%20Models.md#6-what-is-the-difference-between-update-and-update)
+- [7. What are callbacks?](04%20Models.md#7-what-are-callbacks)
+- [8. Why can callbacks be dangerous?](04%20Models.md#8-why-can-callbacks-be-dangerous)
+- [9. **What is a transaction?**](04%20Models.md#9-what-is-a-transaction)
+- [10. **Difference between model validations and DB validations**](04%20Models.md#10-difference-between-model-validations-and-db-validations)
+- [11. **How do errors get stored?**](04%20Models.md#11-how-do-errors-get-stored)
+- [12. **What does `accepts_nested_attributes_for` do?**](04%20Models.md#12-what-does-acceptsnestedattributesfor-do)
+- [13. **What is the `attribute` API?**](04%20Models.md#13-what-is-the-attribute-api)
+- [14. **What is `enum` in models?**](04%20Models.md#14-what-is-enum-in-models)
+- [15. **What is the purpose of validations?**](04%20Models.md#15-what-is-the-purpose-of-validations)
+- [16. **What is dirty tracking?**](04%20Models.md#16-what-is-dirty-tracking)
+- [17. **Difference between `update`, `update_attribute`, and `update_column`?**](04%20Models.md#17-difference-between-update-updateattribute-and-updatecolumn)
+- [18. **What are virtual attributes?**](04%20Models.md#18-what-are-virtual-attributes)
+- [19. **What does `delegate` do?**](04%20Models.md#19-what-does-delegate-do)
+- [20. **What are `serialize` and `store` used for?**](04%20Models.md#20-what-are-serialize-and-store-used-for)
+- [21. **What is callback order (high level)?**](04%20Models.md#21-what-is-callback-order-high-level)
+- [22. **`after_save` vs `after_commit`**](04%20Models.md#22-aftersave-vs-aftercommit)
+- [23. **What are readonly records?**](04%20Models.md#23-what-are-readonly-records)
+- [**Transactions vs Atomicity (SQL vs MongoDB)**](04%20Models.md#transactions-vs-atomicity-sql-vs-mongodb)
 
 ## 05 ActiveRecord Queries.md
-- 1. **What is the difference between `find` and `find_by`?**
-- 2. **What does `.where` return?**
-- 3. **Difference between `.select` and `.pluck`?**
-- 4. **What is the difference between `.joins` and `.includes`?**
-- 5. **What is eager loading vs lazy loading?**
-- 6. **Difference between `includes`, `preload`, and `eager_load`?**
-- 7. **How to perform raw SQL?**
-- 8. **What are scopes?**
-- 9. **Why is `default_scope` dangerous?**
-- 10. **How does ActiveRecord lazy loading work?**
-- 11. **What does `.distinct` do?**
-- 12. **Difference between `.count`, `.size`, `.length`?**
-- 13. **What does `.group` / `.having` do?**
-- 14. **What does `.order` do?**
-- 15. **How do you prevent SQL injection in ActiveRecord?**
-- 16. **What is `find_each` and when to use it?**
-- 17. **What is optimistic locking?**
-- 18. **What is pessimistic locking?**
-- 19. **What is counter caching?**
-- 20. **What is `touch: true`?**
-- 21. **What are composite indexes?**
-- 22. **How do you debug slow ActiveRecord queries?**
-- 23. **What does `.or` do?**
-- 24. **How to use `select` to reduce loaded columns?**
-- 25. **How to chain multiple queries?**
-- 26. **What is `left_joins` and when do you use it?**
-- 27. **What is `merge`?**
-- 28. **`find_each` vs `in_batches`**
-- 29. **`exists?` vs `any?` vs `present?`**
-- 30. **What is `pick`?**
-- 31. **What does `unscoped` do?**
-- 32. **How does ActiveRecord build SQL queries?**
-- 33. **Difference between `.where` and `.find`?**
+- [1. **What is the difference between `find` and `find_by`?**](05%20ActiveRecord%20Queries.md#1-what-is-the-difference-between-find-and-findby)
+- [2. **What does `.where` return?**](05%20ActiveRecord%20Queries.md#2-what-does-where-return)
+- [3. **Difference between `.select` and `.pluck`?**](05%20ActiveRecord%20Queries.md#3-difference-between-select-and-pluck)
+- [4. **What is the difference between `.joins` and `.includes`?**](05%20ActiveRecord%20Queries.md#4-what-is-the-difference-between-joins-and-includes)
+- [5. **What is eager loading vs lazy loading?**](05%20ActiveRecord%20Queries.md#5-what-is-eager-loading-vs-lazy-loading)
+- [6. **Difference between `includes`, `preload`, and `eager_load`?**](05%20ActiveRecord%20Queries.md#6-difference-between-includes-preload-and-eagerload)
+- [7. **How to perform raw SQL?**](05%20ActiveRecord%20Queries.md#7-how-to-perform-raw-sql)
+- [8. **What are scopes?**](05%20ActiveRecord%20Queries.md#8-what-are-scopes)
+- [9. **Why is `default_scope` dangerous?**](05%20ActiveRecord%20Queries.md#9-why-is-defaultscope-dangerous)
+- [10. **How does ActiveRecord lazy loading work?**](05%20ActiveRecord%20Queries.md#10-how-does-activerecord-lazy-loading-work)
+- [11. **What does `.distinct` do?**](05%20ActiveRecord%20Queries.md#11-what-does-distinct-do)
+- [12. **Difference between `.count`, `.size`, `.length`?**](05%20ActiveRecord%20Queries.md#12-difference-between-count-size-length)
+- [13. **What does `.group` / `.having` do?**](05%20ActiveRecord%20Queries.md#13-what-does-group-having-do)
+- [14. **What does `.order` do?**](05%20ActiveRecord%20Queries.md#14-what-does-order-do)
+- [15. **How do you prevent SQL injection in ActiveRecord?**](05%20ActiveRecord%20Queries.md#15-how-do-you-prevent-sql-injection-in-activerecord)
+- [16. **What is `find_each` and when to use it?**](05%20ActiveRecord%20Queries.md#16-what-is-findeach-and-when-to-use-it)
+- [17. **What is optimistic locking?**](05%20ActiveRecord%20Queries.md#17-what-is-optimistic-locking)
+- [18. **What is pessimistic locking?**](05%20ActiveRecord%20Queries.md#18-what-is-pessimistic-locking)
+- [19. **What is counter caching?**](05%20ActiveRecord%20Queries.md#19-what-is-counter-caching)
+- [20. **What is `touch: true`?**](05%20ActiveRecord%20Queries.md#20-what-is-touch-true)
+- [21. **What are composite indexes?**](05%20ActiveRecord%20Queries.md#21-what-are-composite-indexes)
+- [22. **How do you debug slow ActiveRecord queries?**](05%20ActiveRecord%20Queries.md#22-how-do-you-debug-slow-activerecord-queries)
+- [23. **What does `.or` do?**](05%20ActiveRecord%20Queries.md#23-what-does-or-do)
+- [24. **How to use `select` to reduce loaded columns?**](05%20ActiveRecord%20Queries.md#24-how-to-use-select-to-reduce-loaded-columns)
+- [25. **How to chain multiple queries?**](05%20ActiveRecord%20Queries.md#25-how-to-chain-multiple-queries)
+- [26. **What is `left_joins` and when do you use it?**](05%20ActiveRecord%20Queries.md#26-what-is-leftjoins-and-when-do-you-use-it)
+- [27. **What is `merge`?**](05%20ActiveRecord%20Queries.md#27-what-is-merge)
+- [28. **`find_each` vs `in_batches`**](05%20ActiveRecord%20Queries.md#28-findeach-vs-inbatches)
+- [29. **`exists?` vs `any?` vs `present?`**](05%20ActiveRecord%20Queries.md#29-exists-vs-any-vs-present)
+- [30. **What is `pick`?**](05%20ActiveRecord%20Queries.md#30-what-is-pick)
+- [31. **What does `unscoped` do?**](05%20ActiveRecord%20Queries.md#31-what-does-unscoped-do)
+- [32. **How does ActiveRecord build SQL queries?**](05%20ActiveRecord%20Queries.md#32-how-does-activerecord-build-sql-queries)
+- [33. **Difference between `.where` and `.find`?**](05%20ActiveRecord%20Queries.md#33-difference-between-where-and-find)
 
 ## 06 Associations.md
-- 1. **What types of associations exist in Rails?**
-- 2. **What does `belongs_to` mean?**
-- 3. **What does `has_many` mean?**
-- 4. **What is `has_many :through`?**
-- 5. **What is HABTM (`has_and_belongs_to_many`)?**
-- 6. **What is a polymorphic association?**
-- 7. **What does `dependent:` do?**
-- 8. **What is `inverse_of` and why is it useful?**
-- 9. **What is eager loading?**
-- 10. **What is lazy loading?**
-- 11. **What is the N+1 problem?**
-- 12. **How do you fix N+1?**
-- 13. **Can you validate associated records?**
-- 14. **What is `has_one :through`?**
-- 15. **How do you handle circular dependencies in associations?**
+- [1. **What types of associations exist in Rails?**](06%20Associations.md#1-what-types-of-associations-exist-in-rails)
+- [2. **What does `belongs_to` mean?**](06%20Associations.md#2-what-does-belongsto-mean)
+- [3. **What does `has_many` mean?**](06%20Associations.md#3-what-does-hasmany-mean)
+- [4. **What is `has_many :through`?**](06%20Associations.md#4-what-is-hasmany-through)
+- [5. **What is HABTM (`has_and_belongs_to_many`)?**](06%20Associations.md#5-what-is-habtm-hasandbelongstomany)
+- [6. **What is a polymorphic association?**](06%20Associations.md#6-what-is-a-polymorphic-association)
+- [7. **What does `dependent:` do?**](06%20Associations.md#7-what-does-dependent-do)
+- [8. **What is `inverse_of` and why is it useful?**](06%20Associations.md#8-what-is-inverseof-and-why-is-it-useful)
+- [9. **What is eager loading?**](06%20Associations.md#9-what-is-eager-loading)
+- [10. **What is lazy loading?**](06%20Associations.md#10-what-is-lazy-loading)
+- [11. **What is the N+1 problem?**](06%20Associations.md#11-what-is-the-n1-problem)
+- [12. **How do you fix N+1?**](06%20Associations.md#12-how-do-you-fix-n1)
+- [13. **Can you validate associated records?**](06%20Associations.md#13-can-you-validate-associated-records)
+- [14. **What is `has_one :through`?**](06%20Associations.md#14-what-is-hasone-through)
+- [15. **How do you handle circular dependencies in associations?**](06%20Associations.md#15-how-do-you-handle-circular-dependencies-in-associations)
 
 ## 07_Migrations_and_Database.md
-- 1. **What is a migration in Rails?**
-- 2. **Difference between `change`, `up`, and `down`?**
-- 3. **What is a reversible migration?**
-- 4. **What is `schema.rb`?**
-- 5. **Difference between `schema.rb` and `structure.sql`?**
-- 6. **How do you rollback migrations?**
-- 7. **How do you add indexes?**
-- 8. **What is a foreign key constraint?**
-- 9. **What is `rails db:seed` used for?**
-- 10. **What is JSONB (PostgreSQL)?**
-- 11. **What is PostgreSQL full-text search?**
-- 12. **How do you check slow queries using EXPLAIN?**
-- 13. **What is the difference between `db:reset` and `db:drop + db:create + db:migrate`?**
-- 14. **How do you change column types safely?**
-- 15. **When should you add database-level validations?**
+- [1. **What is a migration in Rails?**](07%20Migrations%20and_Database.md#1-what-is-a-migration-in-rails)
+- [2. **Difference between `change`, `up`, and `down`?**](07%20Migrations%20and_Database.md#2-difference-between-change-up-and-down)
+- [3. **What is a reversible migration?**](07%20Migrations%20and_Database.md#3-what-is-a-reversible-migration)
+- [4. **What is `schema.rb`?**](07%20Migrations%20and_Database.md#4-what-is-schemarb)
+- [5. **Difference between `schema.rb` and `structure.sql`?**](07%20Migrations%20and_Database.md#5-difference-between-schemarb-and-structuresql)
+- [6. **How do you rollback migrations?**](07%20Migrations%20and_Database.md#6-how-do-you-rollback-migrations)
+- [7. **How do you add indexes?**](07%20Migrations%20and_Database.md#7-how-do-you-add-indexes)
+- [8. **What is a foreign key constraint?**](07%20Migrations%20and_Database.md#8-what-is-a-foreign-key-constraint)
+- [9. **What is `rails db:seed` used for?**](07%20Migrations%20and_Database.md#9-what-is-rails-dbseed-used-for)
+- [10. **What is JSONB (PostgreSQL)?**](07%20Migrations%20and_Database.md#10-what-is-jsonb-postgresql)
+- [11. **What is PostgreSQL full-text search?**](07%20Migrations%20and_Database.md#11-what-is-postgresql-full-text-search)
+- [12. **How do you check slow queries using EXPLAIN?**](07%20Migrations%20and_Database.md#12-how-do-you-check-slow-queries-using-explain)
+- [13. **What is the difference between `db:reset` and `db:drop + db:create + db:migrate`?**](07%20Migrations%20and_Database.md#13-what-is-the-difference-between-dbreset-and-dbdrop-dbcreate-dbmigrate)
+- [14. **How do you change column types safely?**](07%20Migrations%20and_Database.md#14-how-do-you-change-column-types-safely)
+- [15. **When should you add database-level validations?**](07%20Migrations%20and_Database.md#15-when-should-you-add-database-level-validations)
 
 ## 08 Validations.md
-- 1. **What are the common validation types in Rails?**
-- 2. **How does `validates_uniqueness_of` work internally?**
-- 3. **What are custom validators?**
-- 4. **What does `errors.add` do?**
-- 5. **What are conditional validations?**
-- 6. **What is the difference between `valid?` and `invalid?`?**
-- 7. **How do you skip validations?**
-- 8. **What is `validate :method_name` used for?**
-- 9. **How to validate associated models?**
+- [1. **What are the common validation types in Rails?**](08%20Validations.md#1-what-are-the-common-validation-types-in-rails)
+- [2. **How does `validates_uniqueness_of` work internally?**](08%20Validations.md#2-how-does-validatesuniquenessof-work-internally)
+- [3. **What are custom validators?**](08%20Validations.md#3-what-are-custom-validators)
+- [4. **What does `errors.add` do?**](08%20Validations.md#4-what-does-errorsadd-do)
+- [5. **What are conditional validations?**](08%20Validations.md#5-what-are-conditional-validations)
+- [6. **What is the difference between `valid?` and `invalid?`?**](08%20Validations.md#6-what-is-the-difference-between-valid-and-invalid)
+- [7. **How do you skip validations?**](08%20Validations.md#7-how-do-you-skip-validations)
+- [8. **What is `validate :method_name` used for?**](08%20Validations.md#8-what-is-validate-methodname-used-for)
+- [9. **How to validate associated models?**](08%20Validations.md#9-how-to-validate-associated-models)
 
 ## 09 Background Jobs.md
-- 1. **What is ActiveJob?**
-- 2. **What is Sidekiq?**
-- 3. **What is idempotency in jobs?**
-- 4. **How do retries work in Sidekiq?**
-- 5. **How do you schedule jobs?**
-- 6. **When should work go into a background job?**
-- 7. **How do you define job queues?**
-- 8. **How to prevent duplicate jobs?**
-- 9. **What is `perform_now` vs `perform_later`?**
-- 10. **What is a job retry dead letter queue?**
+- [1. **What is ActiveJob?**](09%20Background%20Jobs.md#1-what-is-activejob)
+- [2. **What is Sidekiq?**](09%20Background%20Jobs.md#2-what-is-sidekiq)
+- [3. **What is idempotency in jobs?**](09%20Background%20Jobs.md#3-what-is-idempotency-in-jobs)
+- [4. **How do retries work in Sidekiq?**](09%20Background%20Jobs.md#4-how-do-retries-work-in-sidekiq)
+- [5. **How do you schedule jobs?**](09%20Background%20Jobs.md#5-how-do-you-schedule-jobs)
+- [6. **When should work go into a background job?**](09%20Background%20Jobs.md#6-when-should-work-go-into-a-background-job)
+- [7. **How do you define job queues?**](09%20Background%20Jobs.md#7-how-do-you-define-job-queues)
+- [8. **How to prevent duplicate jobs?**](09%20Background%20Jobs.md#8-how-to-prevent-duplicate-jobs)
+- [9. **What is `perform_now` vs `perform_later`?**](09%20Background%20Jobs.md#9-what-is-performnow-vs-performlater)
+- [10. **What is a job retry dead letter queue?**](09%20Background%20Jobs.md#10-what-is-a-job-retry-dead-letter-queue)
 
 ## 10 Mailers.md
-- 1. **What is ActionMailer?**
-- 2. **What is the difference between `deliver_now` and `deliver_later`?**
-- 3. **What are mailer previews?**
-- 4. **How do you add attachments to emails?**
-- 5. **How do you configure email delivery settings?**
-- 6. **What is `ApplicationMailer`?**
-- 7. **What formats can a mailer render?**
-- 8. **How do you localize email content?**
+- [1. **What is ActionMailer?**](10%20Mailers.md#1-what-is-actionmailer)
+- [2. **What is the difference between `deliver_now` and `deliver_later`?**](10%20Mailers.md#2-what-is-the-difference-between-delivernow-and-deliverlater)
+- [3. **What are mailer previews?**](10%20Mailers.md#3-what-are-mailer-previews)
+- [4. **How do you add attachments to emails?**](10%20Mailers.md#4-how-do-you-add-attachments-to-emails)
+- [5. **How do you configure email delivery settings?**](10%20Mailers.md#5-how-do-you-configure-email-delivery-settings)
+- [6. **What is `ApplicationMailer`?**](10%20Mailers.md#6-what-is-applicationmailer)
+- [7. **What formats can a mailer render?**](10%20Mailers.md#7-what-formats-can-a-mailer-render)
+- [8. **How do you localize email content?**](10%20Mailers.md#8-how-do-you-localize-email-content)
 
 ## 11 Security.md
-- 1. **What is CSRF?**
-- 2. **What is XSS?**
-- 3. **What is SQL Injection and how does Rails prevent it?**
-- 4. **What are Strong Parameters?**
-- 5. **What is Mass Assignment?**
-- 6. **How does Rails handle password security?**
-- 7. **What is Authentication vs Authorization?**
-- 8. **What is Session Hijacking?**
-- 9. **What is Parameter Tampering?**
-- 10. **What does Rails automatically escape?**
+- [1. **What is CSRF?**](11%20Security.md#1-what-is-csrf)
+- [2. **What is XSS?**](11%20Security.md#2-what-is-xss)
+- [3. **What is SQL Injection and how does Rails prevent it?**](11%20Security.md#3-what-is-sql-injection-and-how-does-rails-prevent-it)
+- [4. **What are Strong Parameters?**](11%20Security.md#4-what-are-strong-parameters)
+- [5. **What is Mass Assignment?**](11%20Security.md#5-what-is-mass-assignment)
+- [6. **How does Rails handle password security?**](11%20Security.md#6-how-does-rails-handle-password-security)
+- [7. **What is Authentication vs Authorization?**](11%20Security.md#7-what-is-authentication-vs-authorization)
+- [8. **What is Session Hijacking?**](11%20Security.md#8-what-is-session-hijacking)
+- [9. **What is Parameter Tampering?**](11%20Security.md#9-what-is-parameter-tampering)
+- [10. **What does Rails automatically escape?**](11%20Security.md#10-what-does-rails-automatically-escape)
 
 ## 12 Performance & Caching.md
-- 1. **What is caching in Rails?**
-- 2. **What is Fragment Caching?**
-- 3. **What is Russian Doll Caching?**
-- 4. **What are Cache Keys?**
-- 5. **What is a Cache Digest?**
-- 6. **What is Counter Cache?**
-- 7. **What is Memoization (`||=`)?**
-- 8. **How do you avoid N+1 queries?**
-- 9. **How do you improve performance in Rails APIs?**
-- 10. **When should background jobs be used for performance?**
-- 11. **How do you cache queries in Rails?**
-- 12. **What is HTTP caching?**
+- [1. **What is caching in Rails?**](12%20Performance%20%26%20Caching.md#1-what-is-caching-in-rails)
+- [2. **What is Fragment Caching?**](12%20Performance%20%26%20Caching.md#2-what-is-fragment-caching)
+- [3. **What is Russian Doll Caching?**](12%20Performance%20%26%20Caching.md#3-what-is-russian-doll-caching)
+- [4. **What are Cache Keys?**](12%20Performance%20%26%20Caching.md#4-what-are-cache-keys)
+- [5. **What is a Cache Digest?**](12%20Performance%20%26%20Caching.md#5-what-is-a-cache-digest)
+- [6. **What is Counter Cache?**](12%20Performance%20%26%20Caching.md#6-what-is-counter-cache)
+- [7. **What is Memoization (`||=`)?**](12%20Performance%20%26%20Caching.md#7-what-is-memoization)
+- [8. **How do you avoid N+1 queries?**](12%20Performance%20%26%20Caching.md#8-how-do-you-avoid-n1-queries)
+- [9. **How do you improve performance in Rails APIs?**](12%20Performance%20%26%20Caching.md#9-how-do-you-improve-performance-in-rails-apis)
+- [10. **When should background jobs be used for performance?**](12%20Performance%20%26%20Caching.md#10-when-should-background-jobs-be-used-for-performance)
+- [11. **How do you cache queries in Rails?**](12%20Performance%20%26%20Caching.md#11-how-do-you-cache-queries-in-rails)
+- [12. **What is HTTP caching?**](12%20Performance%20%26%20Caching.md#12-what-is-http-caching)
 
 ## 13 Views & Frontend.md
-- 1. **What is ERB in Rails?**
-- 2. **What are partials?**
-- 3. **How do you pass locals to partials?**
-- 4. **Difference between layouts and partials?**
-- 5. **What is `content_for` used for?**
-- 6. **What are view helpers?**
-- 7. **What is the Asset Pipeline?**
-- 8. **What are ViewComponents?**
-- 9. **What is Turbo?**
-- 10. **What is server-side rendering in Rails?**
-- 11. **How to render a collection efficiently?**
-- 12. **What is the difference between `render` and `redirect_to` in views?**
+- [1. **What is ERB in Rails?**](13%20Views%20%26%20Frontend.md#1-what-is-erb-in-rails)
+- [2. **What are partials?**](13%20Views%20%26%20Frontend.md#2-what-are-partials)
+- [3. **How do you pass locals to partials?**](13%20Views%20%26%20Frontend.md#3-how-do-you-pass-locals-to-partials)
+- [4. **Difference between layouts and partials?**](13%20Views%20%26%20Frontend.md#4-difference-between-layouts-and-partials)
+- [5. **What is `content_for` used for?**](13%20Views%20%26%20Frontend.md#5-what-is-contentfor-used-for)
+- [6. **What are view helpers?**](13%20Views%20%26%20Frontend.md#6-what-are-view-helpers)
+- [7. **What is the Asset Pipeline?**](13%20Views%20%26%20Frontend.md#7-what-is-the-asset-pipeline)
+- [8. **What are ViewComponents?**](13%20Views%20%26%20Frontend.md#8-what-are-viewcomponents)
+- [9. **What is Turbo?**](13%20Views%20%26%20Frontend.md#9-what-is-turbo)
+- [10. **What is server-side rendering in Rails?**](13%20Views%20%26%20Frontend.md#10-what-is-server-side-rendering-in-rails)
+- [11. **How to render a collection efficiently?**](13%20Views%20%26%20Frontend.md#11-how-to-render-a-collection-efficiently)
+- [12. **What is the difference between `render` and `redirect_to` in views?**](13%20Views%20%26%20Frontend.md#12-what-is-the-difference-between-render-and-redirectto-in-views)
 
 ## 14 Concerns.md
-- 1. **What are concerns in Rails?**
-- 2. **Why use concerns?**
-- 3. **When NOT to use concerns?**
-- 4. **What is the difference between a concern and a module?**
-- 5. **How do concerns help with models?**
-- 6. **How do concerns help with controllers?**
+- [1. **What are concerns in Rails?**](14%20Concerns.md#1-what-are-concerns-in-rails)
+- [2. **Why use concerns?**](14%20Concerns.md#2-why-use-concerns)
+- [3. **When NOT to use concerns?**](14%20Concerns.md#3-when-not-to-use-concerns)
+- [4. **What is the difference between a concern and a module?**](14%20Concerns.md#4-what-is-the-difference-between-a-concern-and-a-module)
+- [5. **How do concerns help with models?**](14%20Concerns.md#5-how-do-concerns-help-with-models)
+- [6. **How do concerns help with controllers?**](14%20Concerns.md#6-how-do-concerns-help-with-controllers)
 
 ## 15 ActiveStorage.md
-- 1. **What is ActiveStorage?**
-- 2. **How do you attach files to models?**
-- 3. **How do you upload files from a form?**
-- 4. **How do you generate variants (image resizing)?**
-- 5. **What are direct uploads?**
-- 6. **How do you generate a secure URL for downloads?**
-- 7. **How does ActiveStorage store metadata?**
-- 8. **How do you purge (delete) an attachment?**
-- 9. **How do you check if a model has an attached file?**
-- 10. **How do you validate attachment types?**
-- 11. **What is the difference between `purge` and `purge_later`?**
-- 12. **Why use ActiveStorage instead of CarrierWave/Paperclip?**
+- [1. **What is ActiveStorage?**](15%20ActiveStorage.md#1-what-is-activestorage)
+- [2. **How do you attach files to models?**](15%20ActiveStorage.md#2-how-do-you-attach-files-to-models)
+- [3. **How do you upload files from a form?**](15%20ActiveStorage.md#3-how-do-you-upload-files-from-a-form)
+- [4. **How do you generate variants (image resizing)?**](15%20ActiveStorage.md#4-how-do-you-generate-variants-image-resizing)
+- [5. **What are direct uploads?**](15%20ActiveStorage.md#5-what-are-direct-uploads)
+- [6. **How do you generate a secure URL for downloads?**](15%20ActiveStorage.md#6-how-do-you-generate-a-secure-url-for-downloads)
+- [7. **How does ActiveStorage store metadata?**](15%20ActiveStorage.md#7-how-does-activestorage-store-metadata)
+- [8. **How do you purge (delete) an attachment?**](15%20ActiveStorage.md#8-how-do-you-purge-delete-an-attachment)
+- [9. **How do you check if a model has an attached file?**](15%20ActiveStorage.md#9-how-do-you-check-if-a-model-has-an-attached-file)
+- [10. **How do you validate attachment types?**](15%20ActiveStorage.md#10-how-do-you-validate-attachment-types)
+- [11. **What is the difference between `purge` and `purge_later`?**](15%20ActiveStorage.md#11-what-is-the-difference-between-purge-and-purgelater)
+- [12. **Why use ActiveStorage instead of CarrierWave/Paperclip?**](15%20ActiveStorage.md#12-why-use-activestorage-instead-of-carrierwavepaperclip)
 
 <details>
 <summary><strong>Optional / advanced</strong>: ActionCable (real-time WebSockets)</summary>
 
 ## 16 ActionCable.md
-- 1. **What is ActionCable?**
-- 2. **How does ActionCable work?**
-- 3. **What is a Channel?**
-- 4. **What is Broadcasting?**
-- 5. **What is `stream_from`?**
-- 6. **What is the difference between WebSockets and Polling?**
-- 7. **How do you send data from client to server?**
-- 8. **How do you authenticate ActionCable connections?**
-- 9. **Where does ActionCable run?**
-- 10. **Common use cases for ActionCable**
+- [1. **What is ActionCable?**](16%20ActionCable.md#1-what-is-actioncable)
+- [2. **How does ActionCable work?**](16%20ActionCable.md#2-how-does-actioncable-work)
+- [3. **What is a Channel?**](16%20ActionCable.md#3-what-is-a-channel)
+- [4. **What is Broadcasting?**](16%20ActionCable.md#4-what-is-broadcasting)
+- [5. **What is `stream_from`?**](16%20ActionCable.md#5-what-is-streamfrom)
+- [6. **What is the difference between WebSockets and Polling?**](16%20ActionCable.md#6-what-is-the-difference-between-websockets-and-polling)
+- [7. **How do you send data from client to server?**](16%20ActionCable.md#7-how-do-you-send-data-from-client-to-server)
+- [8. **How do you authenticate ActionCable connections?**](16%20ActionCable.md#8-how-do-you-authenticate-actioncable-connections)
+- [9. **Where does ActionCable run?**](16%20ActionCable.md#9-where-does-actioncable-run)
+- [10. **Common use cases for ActionCable**](16%20ActionCable.md#10-common-use-cases-for-actioncable)
 
 </details>
 
 ## 17 Hotwire (Turbo & Stimulus).md
-- 1. **What is Hotwire?**
-- 2. **What is Turbo Drive?**
-- 3. **What are Turbo Frames?**
-- 4. **What are Turbo Streams?**
-- 5. **What is Stimulus?**
-- 6. **How do Turbo Streams + ActionCable work together?**
-- 7. **Why choose Hotwire instead of a SPA (React/Vue)?**
-- 8. **How do Turbo Streams help with forms?**
+- [1. **What is Hotwire?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#1-what-is-hotwire)
+- [2. **What is Turbo Drive?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#2-what-is-turbo-drive)
+- [3. **What are Turbo Frames?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#3-what-are-turbo-frames)
+- [4. **What are Turbo Streams?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#4-what-are-turbo-streams)
+- [5. **What is Stimulus?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#5-what-is-stimulus)
+- [6. **How do Turbo Streams + ActionCable work together?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#6-how-do-turbo-streams-actioncable-work-together)
+- [7. **Why choose Hotwire instead of a SPA (React/Vue)?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#7-why-choose-hotwire-instead-of-a-spa-reactvue)
+- [8. **How do Turbo Streams help with forms?**](17%20Hotwire%20%28Turbo%20%26%20Stimulus%29.md#8-how-do-turbo-streams-help-with-forms)
 
 ## 18 Credentials & Secrets Management.md
-- 1. **What are Rails credentials?**
-- 2. **How do you edit credentials?**
-- 3. **Where is the master key stored?**
-- 4. **Difference between credentials and environment variables?**
-- 5. **How do you access credentials in Rails?**
-- 6. **What are environment-specific credentials?**
-- 7. **Should API keys be stored in Git repo?**
-- 8. **How does Rails secure credentials internally?**
-- 9. **What should NOT be stored in credentials?**
-- 10. **How do you handle CI/CD environments?**
+- [1. **What are Rails credentials?**](18%20Credentials%20%26%20Secrets%20Management.md#1-what-are-rails-credentials)
+- [2. **How do you edit credentials?**](18%20Credentials%20%26%20Secrets%20Management.md#2-how-do-you-edit-credentials)
+- [3. **Where is the master key stored?**](18%20Credentials%20%26%20Secrets%20Management.md#3-where-is-the-master-key-stored)
+- [4. **Difference between credentials and environment variables?**](18%20Credentials%20%26%20Secrets%20Management.md#4-difference-between-credentials-and-environment-variables)
+- [5. **How do you access credentials in Rails?**](18%20Credentials%20%26%20Secrets%20Management.md#5-how-do-you-access-credentials-in-rails)
+- [6. **What are environment-specific credentials?**](18%20Credentials%20%26%20Secrets%20Management.md#6-what-are-environment-specific-credentials)
+- [7. **Should API keys be stored in Git repo?**](18%20Credentials%20%26%20Secrets%20Management.md#7-should-api-keys-be-stored-in-git-repo)
+- [8. **How does Rails secure credentials internally?**](18%20Credentials%20%26%20Secrets%20Management.md#8-how-does-rails-secure-credentials-internally)
+- [9. **What should NOT be stored in credentials?**](18%20Credentials%20%26%20Secrets%20Management.md#9-what-should-not-be-stored-in-credentials)
+- [10. **How do you handle CI/CD environments?**](18%20Credentials%20%26%20Secrets%20Management.md#10-how-do-you-handle-cicd-environments)
 
 <details>
 <summary><strong>Optional / advanced</strong>: Rails Engines</summary>
 
 ## 19 Rails Engines.md
-- 1. **What is a Rails Engine?**
-- 2. **What is a Mountable Engine?**
-- 3. **What is the difference between a Full Engine and a Mountable Engine?**
-- 4. **When should you use a Rails Engine?**
-- 5. **When should you NOT use an engine?**
-- 6. **How do you create an engine?**
-- 7. **How do you add migrations from an engine to the parent app?**
-- 8. **How do engines keep namespaces isolated?**
-- 9. **How does routing work inside an engine?**
-- 10. **Can engines have dependencies?**
+- [1. **What is a Rails Engine?**](19%20Rails%20Engines.md#1-what-is-a-rails-engine)
+- [2. **What is a Mountable Engine?**](19%20Rails%20Engines.md#2-what-is-a-mountable-engine)
+- [3. **What is the difference between a Full Engine and a Mountable Engine?**](19%20Rails%20Engines.md#3-what-is-the-difference-between-a-full-engine-and-a-mountable-engine)
+- [4. **When should you use a Rails Engine?**](19%20Rails%20Engines.md#4-when-should-you-use-a-rails-engine)
+- [5. **When should you NOT use an engine?**](19%20Rails%20Engines.md#5-when-should-you-not-use-an-engine)
+- [6. **How do you create an engine?**](19%20Rails%20Engines.md#6-how-do-you-create-an-engine)
+- [7. **How do you add migrations from an engine to the parent app?**](19%20Rails%20Engines.md#7-how-do-you-add-migrations-from-an-engine-to-the-parent-app)
+- [8. **How do engines keep namespaces isolated?**](19%20Rails%20Engines.md#8-how-do-engines-keep-namespaces-isolated)
+- [9. **How does routing work inside an engine?**](19%20Rails%20Engines.md#9-how-does-routing-work-inside-an-engine)
+- [10. **Can engines have dependencies?**](19%20Rails%20Engines.md#10-can-engines-have-dependencies)
 
 </details>
 
 ## 20 Error Handling & Monitoring.md
-- 1. **How do you handle exceptions globally in Rails?**
-- 2. **What is Sentry / Rollbar and why use them?**
-- 3. **What are log levels in Rails?**
-- 4. **What is Lograge?**
-- 5. **What is a Request ID and why is it important?**
-- 6. **How do you notify external services (Sentry, Slack) of errors?**
-- 7. **What is Application Monitoring (APM)?**
-- 8. **How do you track slow queries in real-time?**
-- 9. **How do you prevent the app from crashing on unexpected errors?**
-- 10. **Why is error monitoring essential for production apps?**
+- [1. **How do you handle exceptions globally in Rails?**](20%20Error%20Handling%20%26%20Monitoring.md#1-how-do-you-handle-exceptions-globally-in-rails)
+- [2. **What is Sentry / Rollbar and why use them?**](20%20Error%20Handling%20%26%20Monitoring.md#2-what-is-sentry-rollbar-and-why-use-them)
+- [3. **What are log levels in Rails?**](20%20Error%20Handling%20%26%20Monitoring.md#3-what-are-log-levels-in-rails)
+- [4. **What is Lograge?**](20%20Error%20Handling%20%26%20Monitoring.md#4-what-is-lograge)
+- [5. **What is a Request ID and why is it important?**](20%20Error%20Handling%20%26%20Monitoring.md#5-what-is-a-request-id-and-why-is-it-important)
+- [6. **How do you notify external services (Sentry, Slack) of errors?**](20%20Error%20Handling%20%26%20Monitoring.md#6-how-do-you-notify-external-services-sentry-slack-of-errors)
+- [7. **What is Application Monitoring (APM)?**](20%20Error%20Handling%20%26%20Monitoring.md#7-what-is-application-monitoring-apm)
+- [8. **How do you track slow queries in real-time?**](20%20Error%20Handling%20%26%20Monitoring.md#8-how-do-you-track-slow-queries-in-real-time)
+- [9. **How do you prevent the app from crashing on unexpected errors?**](20%20Error%20Handling%20%26%20Monitoring.md#9-how-do-you-prevent-the-app-from-crashing-on-unexpected-errors)
+- [10. **Why is error monitoring essential for production apps?**](20%20Error%20Handling%20%26%20Monitoring.md#10-why-is-error-monitoring-essential-for-production-apps)
 
 ## 21 Testing.md
-- 1. **What testing frameworks does Rails use?**
-- 2. **What types of tests exist in Rails?**
-- 3. **What are fixtures?**
-- 4. **What is FactoryBot and why is it better than fixtures?**
-- 5. **How do you test model validations?**
-- 6. **How do you test controller actions?** (RSpec request specs preferred)
-- 7. **What are Request Specs (RSpec)?**
-- 8. **How do you test background jobs?**
-- 9. **How do you test mailers?**
-- 10. **What is Capybara used for?**
-- 11. **How do you stub external services?**
-- 12. **How do you test exceptions?**
-- 13. **How do you test JSON API responses?**
-- 14. **How do you test model callbacks?**
-- 15. **What is Test Database Transaction Rollback?**
+- [1. **What testing frameworks does Rails use?**](21%20Testing.md#1-what-testing-frameworks-does-rails-use)
+- [2. **What types of tests exist in Rails?**](21%20Testing.md#2-what-types-of-tests-exist-in-rails)
+- [3. **What are fixtures?**](21%20Testing.md#3-what-are-fixtures)
+- [4. **What is FactoryBot and why is it better than fixtures?**](21%20Testing.md#4-what-is-factorybot-and-why-is-it-better-than-fixtures)
+- [5. **How do you test model validations?**](21%20Testing.md#5-how-do-you-test-model-validations)
+- [6. **How do you test controller actions?** (RSpec request specs preferred)](21%20Testing.md#6-how-do-you-test-controller-actions-rspec-request-specs-preferred)
+- [7. **What are Request Specs (RSpec)?**](21%20Testing.md#7-what-are-request-specs-rspec)
+- [8. **How do you test background jobs?**](21%20Testing.md#8-how-do-you-test-background-jobs)
+- [9. **How do you test mailers?**](21%20Testing.md#9-how-do-you-test-mailers)
+- [10. **What is Capybara used for?**](21%20Testing.md#10-what-is-capybara-used-for)
+- [11. **How do you stub external services?**](21%20Testing.md#11-how-do-you-stub-external-services)
+- [12. **How do you test exceptions?**](21%20Testing.md#12-how-do-you-test-exceptions)
+- [13. **How do you test JSON API responses?**](21%20Testing.md#13-how-do-you-test-json-api-responses)
+- [14. **How do you test model callbacks?**](21%20Testing.md#14-how-do-you-test-model-callbacks)
+- [15. **What is Test Database Transaction Rollback?**](21%20Testing.md#15-what-is-test-database-transaction-rollback)
 
 ## 22 API Development.md
-- 1. **What format do Rails APIs commonly return?**
-- 2. **How do you build an API-only Rails app?**
-- 3. **What is `render json:` used for?**
-- 4. **How do you handle authentication in an API?**
-- 5. **What are strong parameters and why needed in APIs?**
-- 6. **How to return proper HTTP status codes?**
-- 7. **What is CORS and why required?**
-- 8. **What are serializers?**
-- 9. **How do you version your API?**
-- 10. **How do you paginate API results?**
-- 11. **How to document APIs?**
-- 12. **How do you prevent over-fetching in APIs?**
-- 13. **How do you optimize N+1 in API endpoints?**
-- 14. **How do you return partial fields?**
+- [1. **What format do Rails APIs commonly return?**](22%20API%20Development.md#1-what-format-do-rails-apis-commonly-return)
+- [2. **How do you build an API-only Rails app?**](22%20API%20Development.md#2-how-do-you-build-an-api-only-rails-app)
+- [3. **What is `render json:` used for?**](22%20API%20Development.md#3-what-is-render-json-used-for)
+- [4. **How do you handle authentication in an API?**](22%20API%20Development.md#4-how-do-you-handle-authentication-in-an-api)
+- [5. **What are strong parameters and why needed in APIs?**](22%20API%20Development.md#5-what-are-strong-parameters-and-why-needed-in-apis)
+- [6. **How to return proper HTTP status codes?**](22%20API%20Development.md#6-how-to-return-proper-http-status-codes)
+- [7. **What is CORS and why required?**](22%20API%20Development.md#7-what-is-cors-and-why-required)
+- [8. **What are serializers?**](22%20API%20Development.md#8-what-are-serializers)
+- [9. **How do you version your API?**](22%20API%20Development.md#9-how-do-you-version-your-api)
+- [10. **How do you paginate API results?**](22%20API%20Development.md#10-how-do-you-paginate-api-results)
+- [11. **How to document APIs?**](22%20API%20Development.md#11-how-to-document-apis)
+- [12. **How do you prevent over-fetching in APIs?**](22%20API%20Development.md#12-how-do-you-prevent-over-fetching-in-apis)
+- [13. **How do you optimize N+1 in API endpoints?**](22%20API%20Development.md#13-how-do-you-optimize-n1-in-api-endpoints)
+- [14. **How do you return partial fields?**](22%20API%20Development.md#14-how-do-you-return-partial-fields)
 
 ## 22 Architecture Patterns.md
-- 1. **What is a service object?**
-- 2. **What is a form object?**
-- 3. **What is a decorator / presenter?**
-- 4. **What is a query object?**
-- 5. **What is an interactor?**
-- 6. **What is a PORO?**
-- 7. **Multi-tenancy approaches (high level)**
-- 8. **Soft delete strategies**
+- [1. **What is a service object?**](22%20Architecture%20Patterns.md#1-what-is-a-service-object)
+- [2. **What is a form object?**](22%20Architecture%20Patterns.md#2-what-is-a-form-object)
+- [3. **What is a decorator / presenter?**](22%20Architecture%20Patterns.md#3-what-is-a-decorator-presenter)
+- [4. **What is a query object?**](22%20Architecture%20Patterns.md#4-what-is-a-query-object)
+- [5. **What is an interactor?**](22%20Architecture%20Patterns.md#5-what-is-an-interactor)
+- [6. **What is a PORO?**](22%20Architecture%20Patterns.md#6-what-is-a-poro)
+- [7. **Multi-tenancy approaches (high level)**](22%20Architecture%20Patterns.md#7-multi-tenancy-approaches-high-level)
+- [8. **Soft delete strategies**](22%20Architecture%20Patterns.md#8-soft-delete-strategies)
 
 ## 23 Practical Scenario Questions.md
-- 1. **How would you implement soft delete in Rails?**
-- 2. **How do you design a tagging system?**
-- 3. **How would you implement role-based authorization?**
-- 4. **How do you implement search efficiently?**
-- 5. **How to handle file uploads for many users?**
-- 6. **How would you design a notification system?**
-- 7. **How to avoid race conditions when updating counters?**
-- 8. **How would you implement audit logging?**
-- 9. **How to design a multi-tenant app?**
-- 10. **How do you prevent duplicate form submissions?**
-- 11. **How do you structure a large Rails refactor?**
-- 12. **How to safely migrate a large table in production?**
-- 13. **How would you design a real-time chat?**
-- 14. **How do you handle API rate limiting?**
-- 15. **How to paginate a very large dataset?**
-- 16. **How do you bulk insert/update records?**
-- 17. **How to debug a memory leak in Rails?**
-- 18. **How do you test performance bottlenecks?**
-- 19. **How would you design an email verification system?**
-- 20. **How would you handle large JSON responses?**
+- [1. **How would you implement soft delete in Rails?**](23%20Practical%20Scenario%20Questions.md#1-how-would-you-implement-soft-delete-in-rails)
+- [2. **How do you design a tagging system?**](23%20Practical%20Scenario%20Questions.md#2-how-do-you-design-a-tagging-system)
+- [3. **How would you implement role-based authorization?**](23%20Practical%20Scenario%20Questions.md#3-how-would-you-implement-role-based-authorization)
+- [4. **How do you implement search efficiently?**](23%20Practical%20Scenario%20Questions.md#4-how-do-you-implement-search-efficiently)
+- [5. **How to handle file uploads for many users?**](23%20Practical%20Scenario%20Questions.md#5-how-to-handle-file-uploads-for-many-users)
+- [6. **How would you design a notification system?**](23%20Practical%20Scenario%20Questions.md#6-how-would-you-design-a-notification-system)
+- [7. **How to avoid race conditions when updating counters?**](23%20Practical%20Scenario%20Questions.md#7-how-to-avoid-race-conditions-when-updating-counters)
+- [8. **How would you implement audit logging?**](23%20Practical%20Scenario%20Questions.md#8-how-would-you-implement-audit-logging)
+- [9. **How to design a multi-tenant app?**](23%20Practical%20Scenario%20Questions.md#9-how-to-design-a-multi-tenant-app)
+- [10. **How do you prevent duplicate form submissions?**](23%20Practical%20Scenario%20Questions.md#10-how-do-you-prevent-duplicate-form-submissions)
+- [11. **How do you structure a large Rails refactor?**](23%20Practical%20Scenario%20Questions.md#11-how-do-you-structure-a-large-rails-refactor)
+- [12. **How to safely migrate a large table in production?**](23%20Practical%20Scenario%20Questions.md#12-how-to-safely-migrate-a-large-table-in-production)
+- [13. **How would you design a real-time chat?**](23%20Practical%20Scenario%20Questions.md#13-how-would-you-design-a-real-time-chat)
+- [14. **How do you handle API rate limiting?**](23%20Practical%20Scenario%20Questions.md#14-how-do-you-handle-api-rate-limiting)
+- [15. **How to paginate a very large dataset?**](23%20Practical%20Scenario%20Questions.md#15-how-to-paginate-a-very-large-dataset)
+- [16. **How do you bulk insert/update records?**](23%20Practical%20Scenario%20Questions.md#16-how-do-you-bulk-insertupdate-records)
+- [17. **How to debug a memory leak in Rails?**](23%20Practical%20Scenario%20Questions.md#17-how-to-debug-a-memory-leak-in-rails)
+- [18. **How do you test performance bottlenecks?**](23%20Practical%20Scenario%20Questions.md#18-how-do-you-test-performance-bottlenecks)
+- [19. **How would you design an email verification system?**](23%20Practical%20Scenario%20Questions.md#19-how-would-you-design-an-email-verification-system)
+- [20. **How would you handle large JSON responses?**](23%20Practical%20Scenario%20Questions.md#20-how-would-you-handle-large-json-responses)
 
 ## 24 Mongoid.md
-- 1. **What is Mongoid?**
-- 2. **How do you define fields in Mongoid?**
-- 3. **What are Mongoid relations?**
-- 4. **What is the difference between `embeds_many` and `has_many`?**
-- 5. **How do you query documents in Mongoid?**
-- 6. **How do you update documents?**
-- 7. **What is the difference between `update`, `set`, and `push`?**
-- 8. **How do Mongoid validations work?**
-- 9. **Does Mongoid support transactions?**
-- 10. **How do Mongoid indexes work?**
-- 11. **How do you use scopes in Mongoid?**
-- 12. **How do you embed documents?**
-- 13. **How does Mongoid handle IDs?**
-- 14. **What is `only` and `without` used for in Mongoid?**
-- 15. **What is `pluck` in Mongoid?**
-- 16. **How do you use atomic updates in Mongoid?**
-- 17. **How do you handle relations in Mongoid without N+1?**
-- 18. **How do you order queries?**
-- 19. **How do you paginate in Mongoid?**
-- 20. **How do you perform aggregations in Mongoid?**
-- 21. **How do you perform text search?**
-- 22. **Does Mongoid support joins?**
-- 23. **When should you NOT embed documents?**
-- 24. **Pros and Cons of Mongoid vs ActiveRecord?**
-- 25. **When is MongoDB a good choice?**
-- 26. **What callbacks does Mongoid support?**
+- [1. **What is Mongoid?**](24%20Mongoid.md#1-what-is-mongoid)
+- [2. **How do you define fields in Mongoid?**](24%20Mongoid.md#2-how-do-you-define-fields-in-mongoid)
+- [3. **What are Mongoid relations?**](24%20Mongoid.md#3-what-are-mongoid-relations)
+- [4. **What is the difference between `embeds_many` and `has_many`?**](24%20Mongoid.md#4-what-is-the-difference-between-embedsmany-and-hasmany)
+- [5. **How do you query documents in Mongoid?**](24%20Mongoid.md#5-how-do-you-query-documents-in-mongoid)
+- [6. **How do you update documents?**](24%20Mongoid.md#6-how-do-you-update-documents)
+- [7. **What is the difference between `update`, `set`, and `push`?**](24%20Mongoid.md#7-what-is-the-difference-between-update-set-and-push)
+- [8. **How do Mongoid validations work?**](24%20Mongoid.md#8-how-do-mongoid-validations-work)
+- [9. **Does Mongoid support transactions?**](24%20Mongoid.md#9-does-mongoid-support-transactions)
+- [10. **How do Mongoid indexes work?**](24%20Mongoid.md#10-how-do-mongoid-indexes-work)
+- [11. **How do you use scopes in Mongoid?**](24%20Mongoid.md#11-how-do-you-use-scopes-in-mongoid)
+- [12. **How do you embed documents?**](24%20Mongoid.md#12-how-do-you-embed-documents)
+- [13. **How does Mongoid handle IDs?**](24%20Mongoid.md#13-how-does-mongoid-handle-ids)
+- [14. **What is `only` and `without` used for in Mongoid?**](24%20Mongoid.md#14-what-is-only-and-without-used-for-in-mongoid)
+- [15. **What is `pluck` in Mongoid?**](24%20Mongoid.md#15-what-is-pluck-in-mongoid)
+- [16. **How do you use atomic updates in Mongoid?**](24%20Mongoid.md#16-how-do-you-use-atomic-updates-in-mongoid)
+- [17. **How do you handle relations in Mongoid without N+1?**](24%20Mongoid.md#17-how-do-you-handle-relations-in-mongoid-without-n1)
+- [18. **How do you order queries?**](24%20Mongoid.md#18-how-do-you-order-queries)
+- [19. **How do you paginate in Mongoid?**](24%20Mongoid.md#19-how-do-you-paginate-in-mongoid)
+- [20. **How do you perform aggregations in Mongoid?**](24%20Mongoid.md#20-how-do-you-perform-aggregations-in-mongoid)
+- [21. **How do you perform text search?**](24%20Mongoid.md#21-how-do-you-perform-text-search)
+- [22. **Does Mongoid support joins?**](24%20Mongoid.md#22-does-mongoid-support-joins)
+- [23. **When should you NOT embed documents?**](24%20Mongoid.md#23-when-should-you-not-embed-documents)
+- [24. **Pros and Cons of Mongoid vs ActiveRecord?**](24%20Mongoid.md#24-pros-and-cons-of-mongoid-vs-activerecord)
+- [25. **When is MongoDB a good choice?**](24%20Mongoid.md#25-when-is-mongodb-a-good-choice)
+- [26. **What callbacks does Mongoid support?**](24%20Mongoid.md#26-what-callbacks-does-mongoid-support)
 
 ## 25 Rails Application Configuration.md
-- 1. **Why is ActiveRecord disabled in this Rails app?**
-- 2. **Why are custom autoload paths added?**
-- 3. **What does `Rack::Deflater` do in middleware?**
-- 4. **What does `Mongoid::QueryCache::Middleware` do?**
-- 5. **Why set a custom application time zone?**
-- 6. **Why configure I18n available locales and default locale?**
-- 7. **What does `exceptions_app = self.routes` mean?**
-- 8. **Why are CSP headers added?**
-- 9. **Why exclude certain paths from SSL redirection?**
-- 10. **Why are some Rails frameworks commented out?**
-- 11. **What is a Railtie and why is it important?**
-- 12. **What does Bundler.require(*Rails.groups) do?**
-- 13. **Why prefer `Time.zone.now` / `Time.current` instead of `Time.now`?**
-- 14. **What does `config.time_zone` do?**
-- 15. **How do you display time in a user’s time zone?**
-- 16. **What is `I18n.t`?**
-- 17. **Where are translation files stored?**
-- 18. **How do you switch locales?**
+- [1. **Why is ActiveRecord disabled in this Rails app?**](25%20Rails%20Application%20Configuration.md#1-why-is-activerecord-disabled-in-this-rails-app)
+- [2. **Why are custom autoload paths added?**](25%20Rails%20Application%20Configuration.md#2-why-are-custom-autoload-paths-added)
+- [3. **What does `Rack::Deflater` do in middleware?**](25%20Rails%20Application%20Configuration.md#3-what-does-rackdeflater-do-in-middleware)
+- [4. **What does `Mongoid::QueryCache::Middleware` do?**](25%20Rails%20Application%20Configuration.md#4-what-does-mongoidquerycachemiddleware-do)
+- [5. **Why set a custom application time zone?**](25%20Rails%20Application%20Configuration.md#5-why-set-a-custom-application-time-zone)
+- [6. **Why configure I18n available locales and default locale?**](25%20Rails%20Application%20Configuration.md#6-why-configure-i18n-available-locales-and-default-locale)
+- [7. **What does `exceptions_app = self.routes` mean?**](25%20Rails%20Application%20Configuration.md#7-what-does-exceptionsapp-selfroutes-mean)
+- [8. **Why are CSP headers added?**](25%20Rails%20Application%20Configuration.md#8-why-are-csp-headers-added)
+- [9. **Why exclude certain paths from SSL redirection?**](25%20Rails%20Application%20Configuration.md#9-why-exclude-certain-paths-from-ssl-redirection)
+- [10. **Why are some Rails frameworks commented out?**](25%20Rails%20Application%20Configuration.md#10-why-are-some-rails-frameworks-commented-out)
+- [11. **What is a Railtie and why is it important?**](25%20Rails%20Application%20Configuration.md#11-what-is-a-railtie-and-why-is-it-important)
+- [12. **What does Bundler.require(*Rails.groups) do?**](25%20Rails%20Application%20Configuration.md#12-what-does-bundlerrequirerailsgroups-do)
+- [13. **Why prefer `Time.zone.now` / `Time.current` instead of `Time.now`?**](25%20Rails%20Application%20Configuration.md#13-why-prefer-timezonenow-timecurrent-instead-of-timenow)
+- [14. **What does `config.time_zone` do?**](25%20Rails%20Application%20Configuration.md#14-what-does-configtimezone-do)
+- [15. **How do you display time in a user’s time zone?**](25%20Rails%20Application%20Configuration.md#15-how-do-you-display-time-in-a-users-time-zone)
+- [16. **What is `I18n.t`?**](25%20Rails%20Application%20Configuration.md#16-what-is-i18nt)
+- [17. **Where are translation files stored?**](25%20Rails%20Application%20Configuration.md#17-where-are-translation-files-stored)
+- [18. **How do you switch locales?**](25%20Rails%20Application%20Configuration.md#18-how-do-you-switch-locales)
 
 ## Rails Application Configuration — Important Interview Q&A.md
-- 1. **Why is ActiveRecord disabled in this Rails app?**
-- 2. **Why are custom autoload paths added?**
-- 3. **What does `Rack::Deflater` do in middleware?**
-- 4. **What does `Mongoid::QueryCache::Middleware` do?**
-- 5. **Why set a custom application time zone?**
-- 6. **Why configure I18n available locales and default locale?**
-- 7. **What does `exceptions_app = self.routes` mean?**
-- 8. **Why are CSP headers added?**
-- 9. **Why exclude certain paths from SSL redirection?**
-- 10. **Why are some Rails frameworks commented out?**
-- 11. **What is a Railtie and why is it important?**
-- 12. **What does Bundler.require(*Rails.groups) do?**
+- [1. **Why is ActiveRecord disabled in this Rails app?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#1-why-is-activerecord-disabled-in-this-rails-app)
+- [2. **Why are custom autoload paths added?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#2-why-are-custom-autoload-paths-added)
+- [3. **What does `Rack::Deflater` do in middleware?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#3-what-does-rackdeflater-do-in-middleware)
+- [4. **What does `Mongoid::QueryCache::Middleware` do?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#4-what-does-mongoidquerycachemiddleware-do)
+- [5. **Why set a custom application time zone?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#5-why-set-a-custom-application-time-zone)
+- [6. **Why configure I18n available locales and default locale?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#6-why-configure-i18n-available-locales-and-default-locale)
+- [7. **What does `exceptions_app = self.routes` mean?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#7-what-does-exceptionsapp-selfroutes-mean)
+- [8. **Why are CSP headers added?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#8-why-are-csp-headers-added)
+- [9. **Why exclude certain paths from SSL redirection?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#9-why-exclude-certain-paths-from-ssl-redirection)
+- [10. **Why are some Rails frameworks commented out?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#10-why-are-some-rails-frameworks-commented-out)
+- [11. **What is a Railtie and why is it important?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#11-what-is-a-railtie-and-why-is-it-important)
+- [12. **What does Bundler.require(*Rails.groups) do?**](Rails%20Application%20Configuration%20%E2%80%94%20Important%20Interview%20Q%26A.md#12-what-does-bundlerrequirerailsgroups-do)
 
 <details>
 <summary><strong>Optional</strong>: Ruby deep-dive</summary>
 
 ## Ruby Language Interview Questions & Answers.md
-- 1. **What are symbols in Ruby?**
-- 2. **What is the difference between a class variable and an instance variable?**
-- 3. **What is the difference between `nil?`, `empty?`, and `blank?`?**
-- 4. **What is a module in Ruby?**
-- 5. **What is the difference between `include`, `extend`, and `prepend`?**
-- 6. **What does `self` mean in Ruby?**
-- 7. **What is metaprogramming in Ruby?**
-- 8. **What is the difference between a block, a proc, and a lambda?**
-- 9. **How does Ruby garbage collection work?**
-- 10. **Difference between `==`, `===`, and `eql?`**
-- 11. **What is a mixin?**
-- 12. **What is monkey patching?**
-- 3. **What is the difference between `load` and `require`?**
-- 14. **What are Ruby iterators?**
-- 15. **Explain Ruby exception handling**
-- 16. **Difference between symbols and strings**
-- 17.0.**Why do some Ruby methods end with `?`?**
-- 17. **What are splat (`*`) and double splat (`**`) operators?**
-- 18. **What is `method_missing`?**
-- 19.  What are `freeze`, `dup`, and `clone`?
-- 20. **What is Duck Typing?**
-- 21. **Difference between `raise` and `fail`**
-- 22. **Difference between public, private, and protected methods**
-- 23. **What is an Enumerator?**
-- 24. **What is the difference between `map` and `each`?**
-- 25. **What are frozen objects? (`freeze`)**
-- 26. **What is the spaceship operator `<=>`?**
-- 27. **What is the difference between class methods and instance methods?**
-- Instance method:
-- Class method:
-- 28. **How does Ruby handle keywords vs positional arguments?**
-- 29. **What is the difference between mutable and immutable objects in Ruby?**
-- 30. **What is a singleton method?**
-- 31. **Explain Ruby’s method lookup path**
-- 32. **What is the difference between `require_relative` and `require`?**
-- 33. **What are keyword argument defaults?**
-- 34. **What is a refinement in Ruby?**
-- 35. **What is the difference between `!=` and `!`?**
-- 36. ### **Safe Navigation & Nil Handling in Ruby**
+- [1. **What are symbols in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#1-what-are-symbols-in-ruby)
+- [2. **What is the difference between a class variable and an instance variable?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#2-what-is-the-difference-between-a-class-variable-and-an-instance-variable)
+- [3. **What is the difference between `nil?`, `empty?`, and `blank?`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#3-what-is-the-difference-between-nil-empty-and-blank)
+- [4. **What is a module in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#4-what-is-a-module-in-ruby)
+- [5. **What is the difference between `include`, `extend`, and `prepend`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#5-what-is-the-difference-between-include-extend-and-prepend)
+- [6. **What does `self` mean in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#6-what-does-self-mean-in-ruby)
+- [7. **What is metaprogramming in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#7-what-is-metaprogramming-in-ruby)
+- [8. **What is the difference between a block, a proc, and a lambda?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#8-what-is-the-difference-between-a-block-a-proc-and-a-lambda)
+- [9. **How does Ruby garbage collection work?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#9-how-does-ruby-garbage-collection-work)
+- [10. **Difference between `==`, `===`, and `eql?`**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#10-difference-between-and-eql)
+- [11. **What is a mixin?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#11-what-is-a-mixin)
+- [12. **What is monkey patching?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#12-what-is-monkey-patching)
+- [3. **What is the difference between `load` and `require`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#3-what-is-the-difference-between-load-and-require)
+- [14. **What are Ruby iterators?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#14-what-are-ruby-iterators)
+- [15. **Explain Ruby exception handling**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#15-explain-ruby-exception-handling)
+- [16. **Difference between symbols and strings**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#16-difference-between-symbols-and-strings)
+- [17.0.**Why do some Ruby methods end with `?`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#170why-do-some-ruby-methods-end-with)
+- [17. **What are splat (`*`) and double splat (`**`) operators?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#17-what-are-splat-and-double-splat-operators)
+- [18. **What is `method_missing`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#18-what-is-methodmissing)
+- [19.  What are `freeze`, `dup`, and `clone`?](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#19-what-are-freeze-dup-and-clone)
+- [20. **What is Duck Typing?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#20-what-is-duck-typing)
+- [21. **Difference between `raise` and `fail`**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#21-difference-between-raise-and-fail)
+- [22. **Difference between public, private, and protected methods**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#22-difference-between-public-private-and-protected-methods)
+- [23. **What is an Enumerator?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#23-what-is-an-enumerator)
+- [24. **What is the difference between `map` and `each`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#24-what-is-the-difference-between-map-and-each)
+- [25. **What are frozen objects? (`freeze`)**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#25-what-are-frozen-objects-freeze)
+- [26. **What is the spaceship operator `<=>`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#26-what-is-the-spaceship-operator)
+- [27. **What is the difference between class methods and instance methods?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#27-what-is-the-difference-between-class-methods-and-instance-methods)
+- [Instance method:](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#instance-method)
+- [Class method:](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#class-method)
+- [28. **How does Ruby handle keywords vs positional arguments?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#28-how-does-ruby-handle-keywords-vs-positional-arguments)
+- [29. **What is the difference between mutable and immutable objects in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#29-what-is-the-difference-between-mutable-and-immutable-objects-in-ruby)
+- [30. **What is a singleton method?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#30-what-is-a-singleton-method)
+- [31. **Explain Ruby’s method lookup path**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#31-explain-rubys-method-lookup-path)
+- [32. **What is the difference between `require_relative` and `require`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#32-what-is-the-difference-between-requirerelative-and-require)
+- [33. **What are keyword argument defaults?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#33-what-are-keyword-argument-defaults)
+- [34. **What is a refinement in Ruby?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#34-what-is-a-refinement-in-ruby)
+- [35. **What is the difference between `!=` and `!`?**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#35-what-is-the-difference-between-and)
+- [36. ### **Safe Navigation & Nil Handling in Ruby**](Ruby%20Language%20Interview%20Questions%20%26%20Answers.md#36-safe-navigation-nil-handling-in-ruby)
 
 </details>
 
